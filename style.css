@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1571260899304-425eee4c7efc') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 20px;
+  margin: 10px 0 20px;
+}
+
+.hero button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #0055aa;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.hero button:hover {
+  background-color: #003f7f;
+}
+
+.about {
+  padding: 60px 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.about h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .about h3 {
+    font-size: 24px;
+  }
+}
